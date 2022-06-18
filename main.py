@@ -9,10 +9,15 @@ print("*************************************************************************
 # Dados 
 print("\tData for the calculation:\n")
 name = input("Name (Nome): ")
-biologicalSex = input("Biological Sex - (F or M): ")
+biologicalSex_str = input("Biological Sex - (F or M): ")
+biologicalSex = biologicalSex_str.upper();
 age = int(input("Age: "))
-height = float(input("Height (m): "))
-weight = float(input("Weight (Kg): "))
+height_str = input("Height (m): ")
+height_q = height_str.count(".") == 1 and height_str or height_str.replace(",",".")
+height = float(height_q)
+weight_str = input("Weight (Kg): ")
+weight_q = weight_str.count(".") == 1 and weight_str or weight_str.replace(",",".")
+weight = float(weight_q)
 
 print("\n************************************************************************************\n")
 
