@@ -2,7 +2,8 @@ from calcIMC import *
 
 print("\t\tBody Mass Index / Índice de Massa Corporal\n")
 print("************************************************************************************")
-print("\tHeight and weight must be separated by a dot (.) and not a comma (,).")
+print("\n\tHeight and weight must be separated by a dot (.) and not a comma (,).")
+print("\tAltura e peso devem ser separados por ponto (.) e não por vírgula (,).\n")
 print("************************************************************************************\n")
 
 # Dados 

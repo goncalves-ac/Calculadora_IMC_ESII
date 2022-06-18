@@ -20,7 +20,7 @@ jobs:
           pip install pytest
       - name: Test with pytest
         run: |
-          pytest calculadora_imc_teste.py
+          pytest test_calculadora_imc.py
   test-macos:
 
     runs-on: macos-latest
@@ -37,7 +37,7 @@ jobs:
           pip install pytest
       - name: Test with pytest
         run: |
-          pytest calculadora_imc_teste.py
+          pytest test_calculadora_imc.py
   test-windows:
 
     runs-on: windows-latest
@@ -54,4 +54,4 @@ jobs:
           pip install pytest
       - name: Test with pytest
         run: |
-          pytest calculadora_imc_teste.py
+          pytest test_calculadora_imc.py
